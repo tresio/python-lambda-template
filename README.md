@@ -14,6 +14,6 @@ To test locally `./test.sh`
 
 ## Deploy
 
-Make sure you've setup your [`template.yaml`](./template.yaml) file, as well as set the appropiate environment variables in the [`local_config.env`](./local_config.env) file.
+Make sure you've setup your [`template.yaml`](./template.yaml) file, as well as set the appropriate environment variables in the [`local_config.env`](./local_config.env) file.
 
 To deploy to your aws account `./deploy.sh`.
