@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: A lambda
+
+
+Globals:
+  Function:
+    Timeout: 90
+
+Resources:
+  LeadLoopEventPublisher:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: FunctionName
+      CodeUri: ./code
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.7
