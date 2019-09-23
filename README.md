@@ -1,4 +1,4 @@
-![AWS Serverless Application Model](img/AWS_SAM_Diagram.png?raw=true "AWS SAM Diagram -> AWS Serverless Application Model (SAM)")
+![AWS Serverless Application Model](img/AWS_SAM_Diagram.jpg?raw=true "AWS SAM Diagram -> AWS Serverless Application Model (SAM)")
 
 This repo contains the basic format for getting started with AWS Lambda and Cloudformation. Use this repo as a template to get started with your next AWS Lambda function.
 
